@@ -1,6 +1,4 @@
-# Project Writeup
-
-## Advanced Lane Finding Project
+# Advanced Lane Finding - Project Writeup
 
 The goal of this project was to create a pipeline that would analyze data in traffic video; the output is a video showing the area between the lane lines, the curvature of the road and position of the car; in production autonomous car projects, the curvature can be used to determine the steering angle and location can be used as a correction for the car position between the lines.
 
