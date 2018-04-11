@@ -150,7 +150,7 @@ Here's a [link to my video result](./project_video_output.mp4)
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.
 
 In terms of the project videos, the most challenging frames are those with low lighting, shadows, different pavement color, large angles of steering.
-The pipeline was approachable until the polyfit function; this took almost a week to solve; at the moment the code uses results from previous frames in order to avarage the binary images; this also helps in removing wobbly lines.
+The pipeline was approachable until the polyfit function; this took almost a week to solve; at the moment the code uses results from previous frames in order to avarage the binary images; this also helps in removing wobbly lines; I had to research blogs and github repos to see a solution, full credit is given to `https://github.com/jeremy-shannon` for Line Class for Storing Data idea.
 
 To make the pipeline more robust we would need to fit the road with higher polynomials; this might solve the harder challenge video.
 Also, due to rapid changing conditions, a more dynamic thresholding would be required; not sure yet how to define it.
